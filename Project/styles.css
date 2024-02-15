@@ -1,0 +1,337 @@
+*{
+    font-family:'Courier New', Courier, monospace;
+}
+.h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:800;
+    text-decoration: underline;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.th1{
+    width: 10%;
+}
+.th2{
+    width: 70%;
+}
+.th3{
+    width: 20%;
+}
+.sidebar{
+    top: 0;
+    position: fixed;
+    z-index: 0;
+    height: 100%;
+    left: 0;
+    background-color: rgb(20, 9, 49);
+    overflow-x: hidden;
+    text-align: center;
+}
+.Adds_right{
+    top: 0;
+    position: fixed;
+    z-index: 0;
+    height: 100%;
+    right:0;
+    background-color: rgb(38, 31, 20);
+    overflow-x: hidden;
+    text-align: center;
+}
+.icons{
+    width: 35px;
+}
+.loupe{
+    width: 20px;
+}
+.navLinks {
+    color:white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-family:"Courier New", monospace;
+    font-weight: 100;
+}
+.hover{
+    margin-bottom: 50%;
+}
+.hover .fa-home{
+    position: flex;
+    width: 50%;
+}
+.hover:hover {
+    background-color: rgb(55, 19, 139);
+}
+.topnav{
+    flex-wrap: nowrap;
+    top: 0;
+    display: flex;
+    position: fixed;
+    width:100%;
+    text-align: left;
+    padding-left: 10px;
+    z-index: 1;
+    height: fit-content;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background-color: rgb(48, 40, 27);
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.471);
+}
+input{
+    border: 0;
+    border-bottom: 2px solid black;
+    margin-right: 1px;
+    padding-top: 1px;
+    font-size: 16px;
+    width:75%;
+    outline: none;
+    background-color: rgb(48, 40, 27);
+    color: rgb(204, 204, 204);
+}
+.body{
+    width: 100%;
+    margin-top: 50px;
+    background-color: rgb(255, 255, 255);
+}
+.banner{
+    height: 200px;
+    width: 100%;
+    position: relative;
+}
+.img_main{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.books_main{
+    height: 100%;    ;
+    width: 100%;
+    position: relative;
+}
+table tr td{
+    margin: 0; padding: 0;
+}
+.main_table{
+    width: 100%;
+    border-spacing:10px 10px;
+    background-color: white;
+    
+}
+.main_page_books{
+    border: 1px solid black;
+    width: 20%;
+    border-right:hidden;
+    background-color: #25315E;
+}
+.adds_head{
+    margin: 0;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 0;
+    color: white;
+}
+.adds_images{
+    background-color: black;
+    height: 200px;
+    width: 95%;
+    object-fit: cover;
+    margin-bottom: 10%;
+}
+::-webkit-scrollbar {
+    width: 5px;
+    background:rgb(0, 0, 0);
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgb(0, 0, 0); 
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+    background:rgb(255, 255, 255);
+} 
+
+
+/* Library */
+.library_table{
+    width: 100%;
+    background-color: white;
+    margin-bottom: 20px;
+    border-spacing: 20px;
+}
+.images{
+    background-color: black;
+    height: 125px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
+    box-shadow: black 4px 4px 4px;
+}
+.container{
+    position: relative;
+    display: inline-block;
+}
+.blur{
+    filter: blur(0px);
+}
+.blur:hover{
+    filter: blur(2px);
+}
+.text_lib{
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:bolder;
+    text-shadow: rgb(0, 0, 0) 3px 3px 3px;
+    color: white;
+    font-size: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}
+
+
+/* News */
+.news_table{
+    width: 100%;
+    background-color: white;
+    margin-bottom: 20px;
+    border-spacing: 20px;
+}
+.td_news{
+    width: 30%;
+    height: 200px;
+    background-color:#25315E;
+}
+
+
+/* Profile */
+.profile_table{
+    width: 100%;
+    background-color: white;
+    margin-bottom: 10px;
+    border-spacing: 10px;
+}
+.thprofile{
+    height: 75px;
+    background-color:#25315E;
+}
+.thprofilepic{
+    height: 75px;
+    background-color:#25315E;
+}
+.tdprofile{
+    width: 30%;
+    height: 150px;
+    background-color:#25315E;
+}
+.tdprofileside{
+    width: 20%;
+    height: 200px;
+    background-color:#25315E;
+}
+
+
+/* Quotes */
+.quotes_table{
+    width: 100%;
+    background-color: white;
+    margin-bottom: 10px;
+    border-spacing: 15px;
+}
+.quotes_table2{
+    width: 100%;
+    margin-bottom: 10px;
+    border-spacing: 5px;
+}
+.thquotes{
+    height: 65px;
+    background-color:#25315E;
+}
+.tdquotes1{
+    height: 40px;
+    background-color:#25315E;
+}
+.tdquotes1left{
+    width: 70%;
+    height: 50px;
+    background-color:#25315E;
+}
+.tdquotes2{
+    width: 30%;
+    height: 150px;
+    background-color:#25315E;
+}
+.tdquotes3{
+    height: 150px;
+    background-color:#000000;
+}
+.tdquotes3h{
+    height: 50px;
+    background-color:#000000;
+}
+
+/* Responsive part */
+@media only screen and (min-width: 100px) {
+    .sidebar{
+        width: 10%;
+        padding-top: 5%;
+    }
+    .Adds_right{
+        width: 20%;
+        padding-top: 4%;
+    }
+    .topnav{
+        margin-left: 9.5%;
+        width: 70%;
+    }
+    .fa-home{
+        font-size: 1.5rem;
+        color: white;
+    }
+    .body{
+        margin-left: 11%;
+        width: 68%;
+    }
+    .main_page_books{
+        height: 150px;
+    }
+  }
+
+  @media only screen and (min-width: 800px) {
+    .sidebar{
+        width: 5%;
+        padding-top: 3%;
+    }
+    .Adds_right{
+        width: 15%;
+    }
+    .topnav{
+        margin-left: 5%;
+        width: 100%;
+    }
+    .fa-home{
+        font-size: 2rem;
+        color: white;
+    }
+    .body{
+        margin-left: 5.5%;
+        width: 79%;
+    }
+    .main_page_books{
+        height: 275px;
+    }
+  }
+  .btn1{
+    padding: 8px;
+    background-color: rgb(48, 40, 27);
+    box-shadow: none;
+    border: 0;
+  }
+  .gg-search {
+    color: rgb(204, 204, 204);
+}
