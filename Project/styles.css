@@ -202,11 +202,6 @@ table tr td{
     margin-bottom: 20px;
     border-spacing: 20px;
 }
-.td_news{
-    width: 30%;
-    height: 200px;
-    background-color:#25315E;
-}
 
 
 /* Profile */
@@ -218,23 +213,42 @@ table tr td{
 }
 .thprofile{
     height: 75px;
-    background-color:#25315E;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
 }
 .thprofilepic{
     height: 75px;
-    background-color:#25315E;
+    width: 75px;
 }
 .tdprofile{
     width: 30%;
     height: 150px;
-    background-color:#25315E;
+    background-color:#000000;
+    padding-left: 10px;
+    padding-right: 10px;
+    vertical-align: top;
+    color: white;
 }
 .tdprofileside{
     width: 20%;
     height: 200px;
-    background-color:#25315E;
+    background-color:#000000;
+    padding-left: 5px;
+    padding-right: 5px;
 }
-
+.sidelink{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+.tdlink{
+    text-decoration: none;
+    color: white;
+}
+.list{
+    margin-bottom: 50px;
+}
 
 /* Quotes */
 .quotes_table{
@@ -243,37 +257,86 @@ table tr td{
     margin-bottom: 10px;
     border-spacing: 15px;
 }
+table tr:first-child {
+        margin-bottom: 0;
+    }
 .quotes_table2{
     width: 100%;
     margin-bottom: 10px;
     border-spacing: 5px;
+    border-collapse: collapse;
 }
-.thquotes{
-    height: 65px;
-    background-color:#25315E;
+.quotes_table2 td p {
+    margin-bottom: 0;
+}
+.thquotes h1{
+    text-align: left;
+    padding-left: 10px;
+    padding: 5px;
+    margin: 5px;
+    font-size: 28px;
 }
 .tdquotes1{
-    height: 40px;
-    background-color:#25315E;
+    text-align: center;
+    text-decoration: underline;
 }
 .tdquotes1left{
     width: 70%;
     height: 50px;
-    background-color:#25315E;
+    padding:0;
+    padding-left: 10px;
 }
 .tdquotes2{
     width: 30%;
     height: 150px;
-    background-color:#25315E;
+    text-align: center;
+    vertical-align: top;
+    font-weight: bold;
 }
 .tdquotes3{
-    height: 150px;
-    background-color:#000000;
+    height: 120px;
+    text-align: center;
+    border-bottom: 2px solid black;
+    font-weight: 500;
 }
 .tdquotes3h{
-    height: 50px;
-    background-color:#000000;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(0, 0, 0);
 }
+.sidelinkquotes{
+    display: inline-block;
+    padding: 10px;
+}
+.imgquotes{
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    background-color: rgb(255, 255, 255); 
+    object-fit: cover;
+    margin-left: 10px;
+    float: left;
+}
+.btn2{
+    padding: 8px;
+    background-color: rgb(0, 0, 0);
+    box-shadow: none;
+    border: 0;
+    vertical-align: middle;
+  }
+  .searchtext{
+    display: inline;
+    font-size: 18px;
+  }
+  .searchtext:hover{
+    color: black;
+  }
+  .btn2:hover{
+    background-color: rgb(140, 140, 140);
+    color: rgb(0, 0, 0);
+    border: 3px solid rgb(0, 0, 0);
+  }
+
 
 /* Responsive part */
 @media only screen and (min-width: 100px) {
