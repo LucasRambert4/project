@@ -208,7 +208,7 @@ table tr td{
     border: 1px solid black;
     overflow: hidden;
     font-size: 15px;
-    font-weight: 900;
+    font-weight: 800;
 }
 
 
@@ -236,13 +236,22 @@ table tr td{
     padding-right: 10px;
     vertical-align: top;
     color: white;
+    border-radius: 10px;
+}
+.tdprofile li{
+    padding-bottom: 10px;
 }
 .tdprofileside{
     width: 20%;
     height: 200px;
-    background-color:#000000;
+    background-color:#640808;
+    border: 2px solid rgb(2, 2, 2);
     padding-left: 5px;
     padding-right: 5px;
+}
+.tdprofileside a{
+    font-size: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .sidelink{
     color: white;
